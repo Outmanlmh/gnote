@@ -1,0 +1,7 @@
+C:\Users\kai\Desktop\c#课程设计\Gnote\NotebookAndLabel\bin\Debug\NotebookAndLabel.exe
+C:\Users\kai\Desktop\c#课程设计\Gnote\NotebookAndLabel\bin\Debug\NotebookAndLabel.pdb
+C:\Users\kai\Desktop\c#课程设计\Gnote\NotebookAndLabel\obj\x86\Debug\NotebookAndLabel.exe
+C:\Users\kai\Desktop\c#课程设计\Gnote\NotebookAndLabel\obj\x86\Debug\NotebookAndLabel.pdb
+C:\Users\kai\Desktop\c#课程设计\Gnote\NotebookAndLabel\bin\Debug\Gnote.exe
+C:\Users\kai\Desktop\c#课程设计\Gnote\NotebookAndLabel\bin\Debug\Gnote.pdb
+C:\Users\kai\Desktop\c#课程设计\Gnote\NotebookAndLabel\obj\x86\Debug\Services.csprojResolveAssemblyReference.cache
