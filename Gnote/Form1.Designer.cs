@@ -29,26 +29,26 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Gnote));
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("节点3");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("节点4");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("节点5");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("笔记本", new System.Windows.Forms.TreeNode[] {
-            treeNode13,
-            treeNode14,
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("节点6");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("节点7");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("节点8");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("节点9");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("标签", new System.Windows.Forms.TreeNode[] {
-            treeNode17,
-            treeNode18,
-            treeNode19,
-            treeNode20});
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("节点1");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("收藏", new System.Windows.Forms.TreeNode[] {
-            treeNode22});
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("垃圾楼");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("节点3");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("节点4");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("节点5");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("笔记本", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3});
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("节点6");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("节点7");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("节点8");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("节点9");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("标签", new System.Windows.Forms.TreeNode[] {
+            treeNode5,
+            treeNode6,
+            treeNode7,
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("节点1");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("收藏", new System.Windows.Forms.TreeNode[] {
+            treeNode10});
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("垃圾楼");
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.countNote = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -530,35 +530,35 @@
             this.nav.Dock = System.Windows.Forms.DockStyle.Fill;
             this.nav.Location = new System.Drawing.Point(0, 0);
             this.nav.Name = "nav";
-            treeNode13.Name = "节点3";
-            treeNode13.Text = "节点3";
-            treeNode14.Name = "节点4";
-            treeNode14.Text = "节点4";
-            treeNode15.Name = "节点5";
-            treeNode15.Text = "节点5";
-            treeNode16.Name = "notabook";
-            treeNode16.Text = "笔记本";
-            treeNode17.Name = "节点6";
-            treeNode17.Text = "节点6";
-            treeNode18.Name = "节点7";
-            treeNode18.Text = "节点7";
-            treeNode19.Name = "节点8";
-            treeNode19.Text = "节点8";
-            treeNode20.Name = "节点9";
-            treeNode20.Text = "节点9";
-            treeNode21.Name = "label";
-            treeNode21.Text = "标签";
-            treeNode22.Name = "节点1";
-            treeNode22.Text = "节点1";
-            treeNode23.Name = "favourite";
-            treeNode23.Text = "收藏";
-            treeNode24.Name = "trash";
-            treeNode24.Text = "垃圾楼";
+            treeNode1.Name = "节点3";
+            treeNode1.Text = "节点3";
+            treeNode2.Name = "节点4";
+            treeNode2.Text = "节点4";
+            treeNode3.Name = "节点5";
+            treeNode3.Text = "节点5";
+            treeNode4.Name = "notabook";
+            treeNode4.Text = "笔记本";
+            treeNode5.Name = "节点6";
+            treeNode5.Text = "节点6";
+            treeNode6.Name = "节点7";
+            treeNode6.Text = "节点7";
+            treeNode7.Name = "节点8";
+            treeNode7.Text = "节点8";
+            treeNode8.Name = "节点9";
+            treeNode8.Text = "节点9";
+            treeNode9.Name = "label";
+            treeNode9.Text = "标签";
+            treeNode10.Name = "节点1";
+            treeNode10.Text = "节点1";
+            treeNode11.Name = "favourite";
+            treeNode11.Text = "收藏";
+            treeNode12.Name = "trash";
+            treeNode12.Text = "垃圾楼";
             this.nav.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode16,
-            treeNode21,
-            treeNode23,
-            treeNode24});
+            treeNode4,
+            treeNode9,
+            treeNode11,
+            treeNode12});
             this.nav.Size = new System.Drawing.Size(111, 434);
             this.nav.TabIndex = 0;
             // 
@@ -593,9 +593,9 @@
             "第三个",
             "四",
             "。。。"});
-            this.listBox1.Location = new System.Drawing.Point(0, 28);
+            this.listBox1.Location = new System.Drawing.Point(0, 26);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(138, 406);
+            this.listBox1.Size = new System.Drawing.Size(138, 408);
             this.listBox1.TabIndex = 1;
             // 
             // panelSearch
@@ -605,7 +605,8 @@
             this.panelSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSearch.Location = new System.Drawing.Point(0, 0);
             this.panelSearch.Name = "panelSearch";
-            this.panelSearch.Size = new System.Drawing.Size(138, 28);
+            this.panelSearch.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.panelSearch.Size = new System.Drawing.Size(138, 26);
             this.panelSearch.TabIndex = 0;
             // 
             // textBox1
@@ -614,7 +615,7 @@
             this.textBox1.Location = new System.Drawing.Point(0, 0);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(98, 28);
+            this.textBox1.Size = new System.Drawing.Size(98, 21);
             this.textBox1.TabIndex = 1;
             // 
             // search
@@ -622,7 +623,7 @@
             this.search.Dock = System.Windows.Forms.DockStyle.Right;
             this.search.Location = new System.Drawing.Point(98, 0);
             this.search.Name = "search";
-            this.search.Size = new System.Drawing.Size(40, 28);
+            this.search.Size = new System.Drawing.Size(40, 21);
             this.search.TabIndex = 0;
             this.search.Text = "搜索";
             this.search.UseVisualStyleBackColor = true;
@@ -630,9 +631,9 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox1.Location = new System.Drawing.Point(0, 56);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(667, 378);
@@ -702,8 +703,8 @@
             // 
             // panelTitle
             // 
-            this.panelTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelTitle.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.panelTitle.Controls.Add(this.textBox2);
             this.panelTitle.Controls.Add(this.label1);
             this.panelTitle.Location = new System.Drawing.Point(2, 3);
@@ -713,8 +714,8 @@
             // 
             // textBox2
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox2.Location = new System.Drawing.Point(38, 2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(627, 21);
