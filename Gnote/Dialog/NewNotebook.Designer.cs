@@ -36,15 +36,15 @@
             // 
             // textBoxNotebook
             // 
-            this.textBoxNotebook.Location = new System.Drawing.Point(98, 18);
+            this.textBoxNotebook.Location = new System.Drawing.Point(98, 29);
             this.textBoxNotebook.Name = "textBoxNotebook";
             this.textBoxNotebook.Size = new System.Drawing.Size(229, 21);
-            this.textBoxNotebook.TabIndex = 0;
+            this.textBoxNotebook.TabIndex = 1;
             // 
             // LabelNotebookName
             // 
             this.LabelNotebookName.AutoSize = true;
-            this.LabelNotebookName.Location = new System.Drawing.Point(39, 21);
+            this.LabelNotebookName.Location = new System.Drawing.Point(39, 32);
             this.LabelNotebookName.Name = "LabelNotebookName";
             this.LabelNotebookName.Size = new System.Drawing.Size(41, 12);
             this.LabelNotebookName.TabIndex = 1;
@@ -52,17 +52,18 @@
             // 
             // buttonOk
             // 
-            this.buttonOk.Location = new System.Drawing.Point(71, 77);
+            this.buttonOk.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.buttonOk.Location = new System.Drawing.Point(71, 88);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(75, 23);
-            this.buttonOk.TabIndex = 2;
+            this.buttonOk.TabIndex = 0;
             this.buttonOk.Text = "确定";
             this.buttonOk.UseVisualStyleBackColor = true;
             this.buttonOk.Click += new System.EventHandler(this.buttonOk_Click);
             // 
             // Cancel
             // 
-            this.Cancel.Location = new System.Drawing.Point(227, 77);
+            this.Cancel.Location = new System.Drawing.Point(227, 88);
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(75, 23);
             this.Cancel.TabIndex = 3;

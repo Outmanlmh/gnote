@@ -9,7 +9,7 @@ using Gnote.Model;
 
 namespace Gnote.Controller
 {
-    class Notebook : INotebook
+    class Notebook : NotebookModel, INotebook
     {
         private string _notebookName;       //笔记本名
 
@@ -18,15 +18,14 @@ namespace Gnote.Controller
             get { return _notebookName; }
             set { _notebookName = value; }
         }
+
         /// <summary>
         /// 创建笔记本
         /// </summary>
         /// <param name="notebookName">笔记本名</param>
         public void createNotebook(string notebookName)
         {
-            string sql = "INSERT INTO `notebook` (`notebook_name`) VALUES ('"+ notebookName + "')";
-            MysqlBase createNotebook = new MysqlBase();
-            createNotebook.base_mysql(sql);
+            create_notebook(notebookName);
         }
 
         /// <summary>

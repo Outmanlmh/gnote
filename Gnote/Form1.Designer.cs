@@ -1,4 +1,5 @@
 ﻿using MySql.Data;
+using Gnote.Model;
 
 namespace Gnote
 {
