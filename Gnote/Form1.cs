@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Gnote.Dialog;
+using Gnote.Model;
 
 namespace Gnote
 {
@@ -15,6 +16,8 @@ namespace Gnote
         public Gnote()
         {
             InitializeComponent();
+           
+            
         }
 
         /// <summary>
@@ -24,7 +27,8 @@ namespace Gnote
         /// <param name="e"></param>
         private void search_Click(object sender, EventArgs e)
         {
-
+            NotebookModel n = new NotebookModel();
+            string a = n.notebook_list();
         }
         /// <summary>
         /// 新建笔记本

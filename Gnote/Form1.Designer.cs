@@ -1,4 +1,7 @@
-﻿namespace Gnote
+﻿using MySql.Data;
+using Gnote.Model;
+
+namespace Gnote
 {
     partial class Gnote
     {
